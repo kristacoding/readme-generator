@@ -1,36 +1,16 @@
-# adf
+## Overview
+This is a ReadMe Generator that creates a ReadMe for the user in Command. 
 
-  ## Description 
 
-  adf
+## Description
+Link to Screenify to watch the ReadMe Generator - https://drive.google.com/file/d/1hSaqnXd7yvsZxRaPPV6xl5ct5OlB4qV3/view  
 
-  ## Table of Contents
+This is a ReadMe Generator that creates a ReadMe for the user in Command. It uses Javascript and Node.JS to create the generator. With Node.JS, it requires Inquirer, FS and Path to generate the ReadMe. 
 
-  * [Installation] (#installation)
+First, the application starts by asking a series of questions which are prompted by a command with in Inquirer. The answers are then saved and used in the generate markdown function. Each answer is then selected and referred back to by using the language ${data.(name)}. The function generateMarkDown is calledback in the index.js file to run the answers through it. Then the answers are listed in a second ReadMe example file. 
 
-  * [Usage] (#usage)
-  $ /function to render the licenses 
+The trickest part about setting up the ReadMe information was learning about the different licenses and license badges. Using github, I was able to follow to documenation to list the most used license and create the badge that sits a the top of the page. 
 
-  * [Contributing] (#contributing)
+Image of ReadMe Questions
+<img src = "img\ReadMe Generator Questions.png">
 
-  * [Test] (#test)
-
-  * [Questions] (#questions)
-
-  ## Installation 
-  af
-
-  ## Usage 
-  ad
-  /render the section for the license - if it has a license, then you would return the license, if not nothing. github
-
-  ## Contributing
-  af
-
-  ## Test
-  To run the test, run this command
-  af
-  
-  ## Questions
-  If you have any questions, please contact me at 
-  adf or adfa

@@ -1,15 +1,18 @@
-# adfadf
+# Krista's ReadMe Generator
+  ![github license](https://img.shields.io/badge/License-MIT License-blue.svg)
 
   ## Description 
 
-  adfadf
+  This is an example of Krista's ReadMe Generator using javascript and Node.js. 
 
   ## Table of Contents
 
   * [Installation] (#installation)
 
   * [Usage] (#usage)
-  $ /function to render the licenses 
+    
+  * [License] (#license)
+
 
   * [Contributing] (#contributing)
 
@@ -18,19 +21,21 @@
   * [Questions] (#questions)
 
   ## Installation 
-  adfasd
+  Node, Fs, Inquirer
 
   ## Usage 
-  adfad
-  /render the section for the license - if it has a license, then you would return the license, if not nothing. github
+  It is used to generate a ReadMe
+
+  ## License
+  This project is licensed under the terms of MIT License
 
   ## Contributing
-  adfad
+  Nothing
 
   ## Test
   To run the test, run this command
-  adfa
+  All
   
   ## Questions
   If you have any questions, please contact me at 
-  adfad or adfadf
+  https://api.github.com/users/kristacoding or kristameiers@gmail.com

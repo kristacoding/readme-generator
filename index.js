@@ -1,8 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const util = require("util");
 const generateMarkdown = require("./utils/generateMarkdown");
-const Choices = require("inquirer/lib/objects/choices");
 const path = require("path");
 
 

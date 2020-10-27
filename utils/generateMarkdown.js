@@ -14,6 +14,7 @@ function licenseLink(license){
   return ""
 };
 
+
 // function to generate markdown for README
 function generateMarkdown(data) {
 
@@ -29,7 +30,8 @@ function generateMarkdown(data) {
   * [Installation] (#installation)
 
   * [Usage] (#usage)
-  ${licenseLink(data.license)}
+    
+    ${licenseLink(data.license)}
 
   * [Contributing] (#contributing)
 
@@ -42,7 +44,9 @@ function generateMarkdown(data) {
 
   ## Usage 
   ${data.userInfo}
-  /render the section for the license - if it has a license, then you would return the license, if not nothing. github
+
+  ## License
+  This project is licensed under the terms of ${data.license}
 
   ## Contributing
   ${data.userContributing}
@@ -53,7 +57,7 @@ function generateMarkdown(data) {
   
   ## Questions
   If you have any questions, please contact me at 
-  ${data.github} or ${data.email}
+  https://api.github.com/users/${data.github} or ${data.email}
 `;
 }
 
