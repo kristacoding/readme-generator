@@ -11,6 +11,10 @@ First, the application starts by asking a series of questions which are prompted
 
 The trickest part about setting up the ReadMe information was learning about the different licenses and license badges. Using github, I was able to follow to documenation to list the most used license and create the badge that sits a the top of the page. 
 
-Image of ReadMe Questions
+ReadMe Questions
 <img src = "img\ReadMe Generator Questions.png">
+
+
+ReadMe Example
+<img src ="img\ReadMe Example.png">
 
